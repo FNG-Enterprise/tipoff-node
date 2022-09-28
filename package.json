@@ -1,0 +1,28 @@
+{
+  "name": "tipoff-node",
+  "version": "1.0.0",
+  "description": "Backend for the TipOff app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FNG-Enterprise/tipoff-node.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FNG-Enterprise/tipoff-node/issues"
+  },
+  "homepage": "https://github.com/FNG-Enterprise/tipoff-node#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
